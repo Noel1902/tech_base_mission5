@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+	<meta charset="utf-8">
+	<title>mission_5</title>
+
+</head>
+<body>
+
+<div>
+  <h1>電卓</h1>
+  <div>
+
+    <div>
+      <input readonly id="result" type="text" value="0">
+      <button onclick="cl_click()">CL</button>
+    </div>
+
+    <div>
+      <button onclick="num_click(7)">7</button>
+      <button onclick="num_click(8)">8</button>
+      <button onclick="num_click(9)">9</button>
+      <button onclick="ope_click(this.innerHTML)">÷</button>
+    </div>
+
+    <div>
+      <button onclick="num_click(4)">4</button>
+      <button onclick="num_click(5)">5</button>
+      <button onclick="num_click(6)">6</button>
+      <button onclick="ope_click(this.innerHTML)">×</button>
+    </div>
+
+    <div>
+      <button onclick="num_click(1)">1</button>
+      <button onclick="num_click(2)">2</button>
+      <button onclick="num_click(3)">3</button>
+      <button onclick="ope_click(this.innerHTML)">-</button>
+    </div>
+
+    <div>
+      <button onclick="num_click(0)">0</button>
+      <button onclick="num_click(this.innerHTML)">.</button>
+      <button onclick="equal_click()">=</button>
+      <button onclick="ope_click(this.innerHTML)">+</button>
+    </div>
+  </div>
+</div>
+
+<script src="mission_5.js"></script>
+
+</body>
